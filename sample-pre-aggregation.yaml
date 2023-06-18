@@ -1,0 +1,7 @@
+name: product-agg
+measures:
+  - products.count
+dimensions:
+  - products.name
+timeDimension: products.created_at
+granularity: day
